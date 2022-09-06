@@ -3,7 +3,7 @@ import styles from "../../styles/sentences.module.css";
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json"
+    "https://my-json-server.typicode.com/14doan/json/sentences"
   );
   const data = await res.json();
 
