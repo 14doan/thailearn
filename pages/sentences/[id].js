@@ -4,9 +4,9 @@ export const getStaticPaths = async () => {
   );
   const data = await res.json();
 
-  const paths = data.map((s) => {
+  const paths = data.map((sentence) => {
     return {
-      params: { id: s.id.toString() },
+      params: { id: sentence.id.toString() },
     };
   });
 
