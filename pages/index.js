@@ -15,14 +15,14 @@ export default function Home() {
       <div>
         <h2 className={styles.title}>Home</h2>
         <p className={styles.text}>
-          It's more fun to speak the local's language when you travel.
+          It&apos;s more fun to speak the local&apos;s language when you travel.
         </p>
         <p className={styles.text}>
           Making you feel more connected with the people and culture.
         </p>
         <p className={styles.text}>
-          Here we present you with relevant words that's easy, and very useful
-          to remember.
+          Here we present you with relevant words that&apos;s easy, and very
+          useful to remember.
         </p>
         <Link href="/sentences">
           <a className={styles.btn}>All sentences</a>
