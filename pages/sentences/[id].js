@@ -1,6 +1,6 @@
 export const getStaticPaths = async () => {
   const res = await fetch(
-    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json/"
+    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json"
   );
   const data = await res.json();
 
