@@ -1,6 +1,6 @@
 export const getStaticPaths = async () => {
   const res = await fetch(
-    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json"
+    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json/"
   );
   const data = await res.json();
 
@@ -19,7 +19,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const id = context.params.id;
   const res = await fetch(
-    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json" + id
+    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json/" + id
   );
   const data = await res.json();
 
