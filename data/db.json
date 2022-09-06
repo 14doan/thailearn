@@ -1,5 +1,4 @@
-{
-    "sentences": [
+[
         {
           "id": 1,
           "english": "Hello",
@@ -72,6 +71,4 @@
           "thai":"kao",
           "note":"high tone"
         }
-
-    ]
-}
+]
