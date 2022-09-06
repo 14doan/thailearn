@@ -2,7 +2,9 @@ import Link from "next/link";
 import styles from "../../styles/sentences.module.css";
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:8000/sentences");
+  const res = await fetch(
+    "https://raw.githubusercontent.com/14doan/thailearn/main/data/db.json"
+  );
   const data = await res.json();
 
   return {
