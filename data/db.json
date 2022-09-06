@@ -1,0 +1,77 @@
+{
+    "sentences": [
+        {
+          "id": 1,
+          "english": "Hello",
+          "thai":"sa-wat-dii",
+          "note":"to be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+        {
+          "id": 2,
+          "english": "No worries",
+          "thai":"Mai-pben-rai",
+          "note":"mai means no. To be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+        {
+          "id": 3,
+          "english": "Yes",
+          "thai":"Chai",
+          "note":"to be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+        {
+          "id": 4,
+          "english": "No",
+          "thai":"Mai",
+          "note":"to be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+         {
+          "id": 5,
+          "english": "What is this",
+          "thai":"ni-khuh-arai",
+          "note":"ni means this, khuh means is, arai means what"
+        },
+        {
+          "id": 6,
+          "english": "Where is",
+          "thai":"yuu thii-nai",
+          "note":"object starts at beginning not end, thi-nai = where"
+        },
+        {
+          "id": 7,
+          "english": "How much",
+          "thai":"thao-rai",
+          "note":"to be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+        {
+          "id": 8,
+          "english": "Thank you",
+          "thai":"Khob-khun",
+          "note":"khun = you"
+        },
+        {
+          "id": 9,
+          "english": "Sorry",
+          "thai":"Khor-toii",
+          "note":"to be polite, end with 'krab' if you're male, and 'kah' if you're female"
+        },
+        {
+          "id": 10,
+          "english": "Very delicious",
+          "thai":"A-roi--Mahh",
+          "note":"aroi = delicious, mahh = very"
+        },
+        {
+          "id": 11,
+          "english": "I",
+          "thai":"chan",
+          "note":"most common I, there are many other words that are more formal or informal."
+        },
+        {
+          "id": 12,
+          "english": "He/she",
+          "thai":"kao",
+          "note":"high tone"
+        }
+
+    ]
+}
