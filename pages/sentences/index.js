@@ -16,7 +16,7 @@ const Sentences = ({ sentences }) => {
   return (
     <div>
       <h2>All Basic Sentences</h2>
-      {sentences.map((s) => (
+      {sentences.sentences.map((s) => (
         <div key={s.id}>
           <Link href={"/sentences/" + s.id}>
             <a className={styles.single}>
