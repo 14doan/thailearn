@@ -4,12 +4,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image
-          src="/public/thailistLogo.png"
-          width={200}
-          height={40}
-          alt="logo"
-        />
+        <Image src="/logo.png" alt="site logo" width={200} height={40} />
       </div>
       <Link href="/">
         <a>Home</a>
