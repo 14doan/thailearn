@@ -4,7 +4,7 @@ export const getStaticPaths = async () => {
   );
   const data = await res.json();
 
-  const paths = data.map((s) => {
+  const paths = data.sentences.map((s) => {
     return {
       params: { id: s.id.toString() },
     };
