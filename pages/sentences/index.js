@@ -5,8 +5,8 @@ export const getStaticProps = async () => {
   const res = await fetch(
     "https://my-json-server.typicode.com/14doan/json/sentences"
   );
-  const data = await res.json();
 
+  const data = await res.json();
   return {
     props: { sentences: data },
   };
