@@ -5,7 +5,8 @@ import Footer from "../comps/Footer";
 import Navbar from "../comps/Navbar";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home({ sentences }) {
+  console.log(sentences);
   return (
     <>
       <Head>
